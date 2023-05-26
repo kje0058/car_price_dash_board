@@ -8,7 +8,7 @@ def run_app_eda():
 
     st.subheader('데이터 분석')
 
-    df=pd.read_csv('data/car_purchasing_Data.csv', encoding='ISO-8859-1')
+    df=pd.read_csv('data/Car_Purchasing_Data.csv', encoding='ISO-8859-1')
     print(df)
 
     if st.checkbox('데이터 프레임 보기'):
